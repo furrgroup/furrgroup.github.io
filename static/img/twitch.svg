@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 2400 2800"
+   xml:space="preserve"
+   sodipodi:docname="twitch.svg"
+   width="2400"
+   height="2800"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs79" /><sodipodi:namedview
+   id="namedview77"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false" />
+<style
+   type="text/css"
+   id="style59">
+	.st0{fill:#FFFFFF;}
+</style>
+<title
+   id="title61">Asset 3</title>
+<g
+   id="g74">
+	
+	<g
+   id="g72">
+		<g
+   id="Layer_1-2">
+			<path
+   d="M 500,0 0,500 v 1800 h 600 v 500 l 500,-500 h 400 l 900,-900 V 0 Z m 1700,1300 -400,400 h -400 l -350,350 V 1700 H 600 V 200 h 1600 z"
+   id="path65" />
+			<rect
+   x="1700"
+   y="550"
+   width="200"
+   height="600"
+   id="rect67" />
+			<rect
+   x="1150"
+   y="550"
+   width="200"
+   height="600"
+   id="rect69" />
+		</g>
+	</g>
+</g>
+</svg>

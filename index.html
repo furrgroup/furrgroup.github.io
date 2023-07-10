@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <title>Sour Lemonade/furrgroup</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-    <link href="Styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="static/style/SourBulma.css">
+    <link rel="stylesheet" href="static/style/Sour.css">
+
+    <meta name="title" content="Sour Lemonade/furrgroup">
+    <meta name="description" content="I draw cute girls."><style type="text/css">
+      html {
+        background-image: url("static/gallery/NSFWAccountBG.png");
+        background-size: cover;
+      }
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
-  <body>
-    <div class ="center">
-      <h1>Sour Lemonade/<br>furrgroup</h1>
-      <p>I draw cute girls.
-      <br>
-      Twitter:
-      <a href="https://twitter.com/furrgroup">SFW</a> |
-      <a href="https://twitter.com/zodiacerections">NSFW</a> |
-      <a href="https://twitter.com/ask_fade">Ask Fade</a>
-      <br>
-      Tumblr:
-      <a href="https://furrgroup.tumblr.com/">SFW</a> |
-      <a href="https://zodiacerections.tumblr.com/">NSFW</a> |
-      <a href="https://libra-art.tumblr.com/">Art Blog</a> |
-      <a href="https://ask-fade.tumblr.com/">Ask Fade</a>
-      <br>
-      <a href="https://www.patreon.com/furrgroup">Patreon</a> |
-      <a href="https://furrgroup.itch.io/">Itch.io</a> |
-      <a href="https://www.furaffinity.net/user/furrgroup/">FurAffinity</a> |
-      <a href="https://www.pixiv.net/en/users/5414630">Pixiv</a> |
-      <a href="https://www.deviantart.com/furrgroup">DeviantArt</a> |
-      <a href="https://www.pillowfort.social/furrgroup">Pillowfort</a>
-      <a href="https://furrgroup.newgrounds.com/">Newgrounds</a> |
-      <a href="http://discord.gg/Jqnkejk">Official Discord</a> |
-      <a href=https://www.youtube.com/channel/UCKGx54-ovpSZBuFOYYUAR4g>YouTube</a> |
-      <a href="https://www.twitch.tv/furrgroup">Twitch</a> |
-      <a href="https://www.youtube.com/channel/UCxVFpCYhXkNoKHtYyNUvbiA">Vods</a>
-      </p>
-      <img src="Styles/img/ama.png" alt="2 of my characters, Katie & Sophie." />
+
+<div class="container has-text-centered center">
+    <div class="box" style="background-image: linear-gradient(#B00B69, orange, orange);">
+            <h1 class="title">Sour Lemonade</h1>
+            <h1 class="subtitle">aka Furrgroup</h1>
+        <div class="block">
+            I draw cute girls.
+        </div>
+        <div class="block">
+            <a href="https://www.patreon.com/furrgroup" target="_blank" title="Patreon"><img src="static/img/patreon.svg" class="social icon">Patreon</a>
+            <br>
+            <img src="static/img/twitter.svg" class="social icon mr-2" title="Twitter">
+            <a href="https://twitter.com/furrgroup" target="_blank" title="SFW Twitter">SFW</a> •
+            <a href="https://twitter.com/zodiacerections" target="_blank" title="NSFW Twitter">NSFW</a> •
+            <a href="https://twitter.com/ask_fade" target="_blank" title="Ask Fade Twitter">Ask Fade</a>
+            <br>
+            <img src="static/img/tumblr.svg" class="social icon mr-2" title="Tumblr">
+            <a href="https://furrgroup.tumblr.com/" target="_blank" title="SFW Tumblr">SFW</a> •
+            <!-- <a href="https://zodiacerections.tumblr.com/">NSFW</a> • -->
+            <a href="https://libra-art.tumblr.com/" target="_blank" title="Tumblr Art Blog">Art Blog</a> <!-- •
+            <a href="https://ask-fade.tumblr.com/">Ask Fade</a> -->
+            <br>
+            <a href="{{ url_for('rss') }}" title="RSS Feed"><img src="static/img/rss-feed.svg" class="social icon  mr-3">RSS</a>
+        </div>
+        <div class="block">
+            <a href="https://furrgroup.itch.io/" target="_blank"><img src="static/img/itchio.svg" class="social icon" title="Itch.io"></a>
+            <a href="https://mastodon.social/@furrgroup" target="_blank"><img src="static/img/mastodon.svg" class="social icon" title="Mastodon"></a>
+            <a href="https://www.furaffinity.net/user/furrgroup/" target="_blank"><img src="static/img/fa.svg" class="social icon" title="FurAffinity"></a>
+            <a href="https://www.pixiv.net/en/users/5414630" target="_blank"><img src="static/img/pixiv.svg" class="social icon" title="Pixiv"></a>
+            <a href="https://www.deviantart.com/furrgroup" target="_blank"><img src="static/img/da.svg" class="social icon" title="DeviantArt"></a>
+            <a href="https://www.pillowfort.social/furrgroup" target="_blank"><img src="static/img/pillowfort.svg" class="social icon" title="Pillowfort"></a>
+            <a href="https://furrgroup.newgrounds.com/" target="_blank"><img src="static/img/newgrounds.svg" class="social icon" title="Newgrounds"></a>
+            <a href="http://discord.gg/Jqnkejk" target="_blank"><img src="static/img/discord.svg" class="social icon" title="Official Discord"></a>
+            <a href="https://www.youtube.com/channel/UCKGx54-ovpSZBuFOYYUAR4g" target="_blank"><img src="static/img/youtube.svg" class="social icon" title="YouTube"></a>
+            <a href="https://www.twitch.tv/furrgroup" target="_blank"><img src="static/img/twitch.svg" class="social icon" title="Twitch"></a>
+            <a href="https://www.youtube.com/channel/UCxVFpCYhXkNoKHtYyNUvbiA" target="_blank"><img src="static/img/youtube.svg" class="social icon" title="Twitch Vods"></a>
+        </div>
+        <img src="static/gallery/ama.png" class="featured" alt="2 of my characters, Katie & Sophie." />
     </div>
-  </body>
-</html>
+</div>
