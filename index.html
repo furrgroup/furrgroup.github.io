@@ -4,7 +4,7 @@
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <title>Sour Lemonade/furrgroup</title>
-    <link rel="stylesheet" href="static/style/SourBulma.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="static/style/Sour.css">
 
     <meta name="title" content="Sour Lemonade/furrgroup">
@@ -19,13 +19,16 @@
         justify-content: center;
         align-items: center;
       }
+      a {
+        color: #b00b69;
+      }
     </style>
   </head>
 
 <div class="container has-text-centered center">
-    <div class="box" style="background-image: linear-gradient(#B00B69, orange, orange);">
-            <h1 class="title">Sour Lemonade</h1>
-            <h1 class="subtitle">aka Furrgroup</h1>
+    <div class="box has-text-white" style="background-image: linear-gradient(#B00B69, orange, orange);">
+        <h1 class="title has-text-white">Sour Lemonade</h1>
+        <h1 class="subtitle has-text-white">aka Furrgroup</h1>
         <div class="block">
             I draw cute girls.
         </div>
@@ -43,7 +46,6 @@
             <a href="https://libra-art.tumblr.com/" target="_blank" title="Tumblr Art Blog">Art Blog</a> <!-- •
             <a href="https://ask-fade.tumblr.com/">Ask Fade</a> -->
             <br>
-            <a href="{{ url_for('rss') }}" title="RSS Feed"><img src="static/img/rss-feed.svg" class="social icon  mr-3">RSS</a>
         </div>
         <div class="block">
             <a href="https://furrgroup.itch.io/" target="_blank"><img src="static/img/itchio.svg" class="social icon" title="Itch.io"></a>
